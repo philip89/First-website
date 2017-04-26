@@ -1,0 +1,441 @@
+
+	body{
+		background-image: url("blue4.jpg");
+		font-family:Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+	}
+	#container{
+		width:75%;
+		height:300vh;
+		background-color:white;
+		margin:0 auto;
+		margin-top: 10px;
+	}
+	/***********************************************Start of firstDiv******************************/
+	
+	#firstDiv{								/*firstDive very top div inside the cotainer*/
+		height:2%;
+		background-color:#104151;
+		position:relative;
+		font-weight:bold;
+		//font-size:.75em;
+		color:white;
+		
+		
+	}
+	#firstDiv p{							/* Used for styling and moving the text inside the first div*/
+		margin: 0;
+		padding-left: 10px;
+		position: absolute;              
+		top: 50%;                         
+		transform: translate(0, -50%) 
+		
+	}
+	/**********************************************Start of second div***********************************/
+	
+	#secondDiv{								/* This div holds the business logo and name */
+		height:6.5%;
+		//background-color:red;
+		position:relative;
+		font-family:bembo;
+		color:#6C6C6E;
+	}
+	#secondDiv img{							/* This is for styling and possitioning the logo*/
+		width:20%;
+		height:90%;
+		position: absolute;
+		left:1.5%;
+		top: 50%;                         
+		transform: translate(0, -50%) 
+		
+	}
+	#secondDiv h1{
+		position:absolute;
+		padding-left:25%;
+	}
+	#secondDiv h2{
+		position:absolute;
+		padding-left:25%;
+		padding-top:40px;
+	}
+	/*******************************************Start of third div******************************************/
+	
+	#thirdDiv{								/* This div contains the links to the other pages in the website*/
+		height:2.5%;						/* 		Home	 About	 Gallery 	Contact 	Fifth			*/
+		//background-color:#3399FF;
+		font-size:.80em;
+		position:relative;
+		font
+		
+		
+	}
+	.borderDiv{								/* This is a div used to put the bottom boarder of the menu div*/
+		border-bottom: 1px solid #D6D6C2;
+		position:absolute;
+		top:100%;
+		right: 3%;
+		left: 3%;
+	}
+	#thirdDiv p{
+		position:relative;
+		left:80px;
+		top:1em;
+		padding-right:7em;
+		float:left;
+		font-weight:bold;
+	}
+	
+	#thirdDiv a{							/* this is used to get rid of standard style on the links*/
+		text-decoration:none;
+		color:black;
+	}
+	#thirdDiv a:hover{						/* This is used to change the colour of the links as the mouse is over them*/
+		color:#3399FF;
+	}
+	
+	
+	/********************************************************Start of forth div********************************/
+	
+	#fourthDiv{
+		height:100px;
+		//background-color:green;
+		position:relative;
+	}
+	#fourthDiv h1{
+		margin: 0;
+		position: absolute;              
+		top: 50%;               
+		left:20px;
+		transform: translate(0, -50%)
+	}
+	#searchBar-encapsulator{				/* This div contains the search bar and button and allows the two to appear merged*/
+		height:37px;
+		background-color:#EBDECD;
+		position: relative; 
+		float:right;		
+		top: 55%;               
+		right:50px;
+		transform: translate(0, -50%)
+	}
+	#searchText{
+		position:absolute;
+		left:-169px;
+		height:37px;
+		border:0;
+		background-color:#EBDECD;
+	}
+	#searchButton{							/****** This is where the search icon is added to the search bar******/
+		background:url(search.png);
+		background-repeat: no-repeat;
+		outline: none;
+		width:37px;
+		height:37px;
+		border: 0;
+	}
+	/*****************************************************************************************************************************************************/
+	/****************************					Everything under here is for the home page				**********************************************/
+	
+	
+	
+	#fifthDiv{								/*This div contains the Big image on the first page*/
+		width:100%;
+		height:450px;
+		//background-color:green;
+		position:relative;
+		top:1px;
+	}
+	#fifthDiv img{
+		width:90%;
+		height: 90%;
+		position:absolute;
+		left:5.5%;
+		top:4.5%;
+	}
+	
+	/********************************************Start of sixthDiv***************************************/
+	
+	#sixthDiv{								/* This div contains three lines of text*/
+		width:1000px;
+		height200px;
+		//background-color:green;
+		position:relative;
+		top:-20px;	
+	}
+	
+	#sixthDiv p, h2{
+		padding-left:50px;
+	}
+	/******************************************************Start of seventhDiv*************************/
+	
+	#seventhDiv{							/* This div contains the three pictures that are linked to the gallery*/
+		width:1000px;
+		height: 350px;
+		//background-color:red;
+		position:relative;
+	}
+	#seventhDiv img{
+		width:25%;
+		height:80%;
+		padding-left:60px;
+		padding-top:20px;
+		
+	}
+	#seventhDiv p{							/* This is used to allign and style the text under the pictures*/
+		float: left;
+		text-align:center;
+		padding-left: 120px;
+		padding-right: 80px;
+		padding-top:-10px;
+		font-size:1.5em;
+	}
+	#seventhDiv a{
+		text-decoration:none;
+		color:black;
+	}
+	#seventhDiv a:hover{
+		color:#c0d9e0;
+	}
+	/*************************************Start of the eight div********************************/
+	
+	#eightDiv{									/* This div holds 5 lines of text*/
+		width: 1000px;
+		height: 200px;
+		//background-color:red;
+	}
+	#eightDiv p, h2{
+		padding-left:50px;
+	}
+	
+	
+	/*****************************************************************************************************************************************************/
+	/****************************					Everything under here is for the About page				**********************************************/
+	
+	#aboutFifthDiv{								/* This div contains some information about the business*/
+		font-family:Georgia, serif;
+		font-size: 1.5em;
+		text-align:center;
+		color:#202634;
+		margin:2em 5em 10em 5em;
+	}
+	
+	/*****************************************************************************************************************************************************/
+	/****************************					Everything under here is for the Gallery page				**********************************************/
+	
+	
+	
+	#galleryFifthDiv{							/*This div contains three pictures and some text all linked to different pages within the gallery*/
+		width:1000px;
+		height:400px;
+		//background-color:red;
+	}
+	#galleryFifthDiv h2{
+		padding-left:20px;
+	}
+	#galleryFifthDiv img{						/* This is used to possition ictures*/
+		width:250px;
+		height:250px;
+		padding-left:60px;
+		padding-top:20px;
+	
+	}
+	#galleryFifthDiv p{							/* This is used to possition text*/
+		float: left;
+		text-align:center;
+		padding-left: 150px;
+		padding-right: 80px;
+		
+		font-size:1.5em;
+	}
+	#galleryFifthDiv a{
+		text-decoration:none;
+		color:black;
+	}
+	#galleryFifthDiv a:hover{
+		color:#c0d9e0;
+	}
+	#borderDiv2{								/* Creates a border at bottom of div used in all three divs*/
+		border-bottom: 1px solid #D6D6C2;
+		position:absolute;
+		top:750px;
+		right: 15%;
+		left: 15%;
+	}
+	/*********************************************Start of gallery sixth div *************************************/
+	
+	#gallerySixthDiv{							/* All three divs on this page are set up the same way*/
+		width:1000px;
+		height:400px;
+		//background-color:red;
+	}
+	#gallerySixthDiv h2{
+		padding-left:20px;
+	}
+	#gallerySixthDiv img{
+		width:250px;
+		height:250px;
+		padding-left:60px;
+		padding-top:20px;
+	
+	}
+	#gallerySixthDiv p{
+		//float: left;
+		//text-align:center;
+		padding-left: 120px;
+		padding-right: 80px;
+		
+		font-size:1.5em;
+	}
+	#gallerySixthDiv a{
+		text-decoration:none;
+		color:black;
+	}
+	#gallerySixthDiv a:hover{
+		color:#c0d9e0;
+	}
+	#borderDiv3{
+		border-bottom: 1px solid #D6D6C2;
+		position:absolute;
+		top:1150px;
+		right: 15%;
+		left: 15%;
+	}
+	/***************************************Start of the gallery seventh div ***************************/
+	#gallerySeventhDiv{
+		width:1000px;
+		height:400px;
+		//background-color:red;
+	}
+	#gallerySeventhDiv h2{
+		padding-left:20px;
+	}
+	#gallerySeventhDiv img{
+		width:250px;
+		height:250px;
+		padding-left:60px;
+		padding-top:20px;
+	
+	}
+	#gallerySeventhDiv p{
+		//float: left;
+		//text-align:center;
+		padding-left: 120px;
+		padding-right: 80px;
+		
+		font-size:1.5em;
+	}
+	#gallerySeventhDiv a{
+		text-decoration:none;
+		color:black;
+	}
+	#gallerySeventhDiv a:hover{
+		color:#c0d9e0;
+	}
+	#borderDiv4{
+		border-bottom: 1px solid #D6D6C2;
+		position:absolute;
+		top:1600px;
+		right: 15%;
+		left: 15%;
+	}
+	
+	
+	
+	/*****************************************************************************************************************************************************/
+	/****************************					Everything under here is for the Contact page				**********************************************/
+	
+	
+	
+	/******************************************** Start of Contact Page Fifth Div************************************/
+	
+	#contactFifthDiv{
+		width:500px; 
+		height:220px;
+		float:left;
+		position:relative;
+		//background-color:green;
+	}
+	#contactFifthDiv h2, address{
+		padding-left:20px;
+	}
+	#contactFifthDiv p{							/* for possitioning the p tag in the html*/
+		padding-left:20px;
+		position:absolute;
+		top:175px;
+	}
+	/******************************************* Start of Contact page sixth div***************************************/
+	#contactSixthDiv{
+		width:50%;
+		height:220px;
+		//background-color:red;
+		position:relative;
+		float:right;
+	}
+	#contactSixthDiv p{
+		padding-top:25px;
+	
+	
+	
+	}
+	/******************************Start of the Contact page seventh div including google maps**********************/
+	
+	#contactSeventhDiv{
+		width:1000px;
+		height:450px;
+		position:relative;
+		float:left;
+		//background-color:blue;
+	}
+	#map{
+		position:absolute;
+		top:2px;
+		left:20px;
+	}
+	/***************************Start of the Contact page eight div *********************************************/
+	#contactEightDiv{
+		width: 1000px;
+		height:85px;
+		//background-color:orange;
+		float:left;
+	}
+	#contactEightDiv p, h2{
+		padding-left:20px;
+	}
+	/***********************************Start of the content ninth div ---form********************************/
+	
+	#contactNinthDiv{
+		width:1000px;
+		height:400px;
+		position:relative;
+		//background-color:green;
+		float:left;
+	}
+	#name, #email, #subject{
+		width:300px;
+		height:30px;
+		float:left;
+		margin-left:20px;
+		margin-right:10px;
+		border:1px solid #E8D8C3;
+	}
+	#message{
+		width:700px;
+		height: 100px;
+		float:left;
+		margin-left:20px;
+		margin-right:10px;
+		border:1px solid #E8D8C3;
+	
+	}
+	#contactNinthDiv p{
+		font-weight:bold;
+	}
+	#send{
+		width:60px;
+		height:40px;
+		background-color:#202634;
+		color:white;
+		font-weight:bold;
+		border:1px solid #E8D8C3;
+		position:relative;
+		top:80px;
+		left:-710px;
+	}

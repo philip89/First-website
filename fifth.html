@@ -1,0 +1,225 @@
+<html>
+ <head>
+     <title> SouthEast Stone | About </title>
+    
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" title="no title" charset="utf-8">
+<style type = "text/css">
+	#specFifthDiv{
+	
+	}
+	#specFifthDiv table{
+		border-collapse: collapse;
+		width:800px;
+		height:400px;
+		margin:0 auto;
+		margin-top:20px;
+		text-align:center;
+		
+	}
+	#specFifthDiv th, td{
+		border: 1px solid blue;
+		vertical-align: text-top;
+		padding:10px;
+	}
+	/****************************************************Start of the spec sixth div ************************************************/
+	
+	#specSixthDiv{
+		width:100px;
+		height:100px;
+		border:2px solid red;
+		margin:50px;
+		outline-style: double;
+		outline-color: blue;
+		float:left;
+	}
+	#clock{
+		position:fixed;
+		width:100px;
+		height:100px;
+		left:10px;
+		top:100px;;
+	}
+	#date{
+	position:fixed;
+		width:100px;
+		height:100px;
+		right:10px;
+		top:150px;;
+	}
+	#shape{
+		width:150px;
+		height:150px;
+		background-color:blue;
+		border-radius:75px;
+		float:left;
+		margin:50px;
+	}
+	/******************************************checkout follows***************************/
+	
+	#checkout{
+		width:1000px;
+		height:300px;
+		//background-color:red;
+		
+	
+	}
+	#checkout p, h1{
+	padding-left:20px;
+	}
+	#inputDiv{
+		width:1000px;
+		height:200px;
+		//background-color:red;
+		float:left;
+	}
+	#inputDiv select{
+		margin:20px;
+	}
+	#inputDiv input{
+		margin:20px;
+	}
+	#changeAddress{
+		position:relative;
+		left:-650px;
+		top:60px;
+	}
+	/**********************************Go to top ****************************/
+	
+	#goToTop{
+		position: relative;
+		top:800px;
+	}
+	
+</style>
+  
+ </head>
+ <body>
+  
+  
+ <div id="container">
+		<div id="firstDiv">
+			<p> This page is just to add everything from the brief!! <p>
+		</div>
+		
+			<div class="clear"> </div>
+		
+		<div id="secondDiv">
+			<img src="businesslogo2.jpg"/><h1>SouthEast</h1><h2>Stone Ltd</h2>
+		</div>
+		
+			<div class="clear"> </div>
+		
+		<div id="thirdDiv">	<p><a href="home.html">HOME</a></p>		<p><a href="about.html">ABOUT</a></p><p><a href="gallery.html">GALLERY</a></p>	
+			<p><a href="contact.html">CONTACT</a></p><p><a href="fifth.html">FIFTH</a></p>
+			<div class="borderDiv"></div>
+		</div>
+		
+			<div class="clear"> </div>
+		
+		<div id="fourthDiv">
+					<h1>Anything else needed in brief</h1>
+			<div id="searchBar-encapsulator">
+				<form>
+					<input id="searchText" type="text" placeholder="search site"/>	<input id="searchButton" type="submit" value="" />
+				</form>
+			</div>
+			<div class="borderDiv"></div>
+		</div>
+		
+			<div class="clear"> </div>
+			
+			<!-- This is where the content page starts differing from other pages-->
+		<div id="specFifthDiv">
+			<table>
+				<tr><th>Product</th><th>Stone</th><th>Price</th></tr>
+				<tr><td>Doors</td><td>LimeStone</td><td>€300</td></tr>
+				<tr><td>Windows</td><td>Grannite</td><td>€400</td></tr>
+				<tr><td>Buildings</td><td>Building Stone </td><td>€500</td></tr>
+				<tr><td>Sculptures</td><td>Marble</td><td>€200</td></tr>
+				<tr><td>WholeSale</td><td>Flag Stone</td><td>€800</td></tr>
+			</table>
+		</div>
+		
+		<div id="checkout"><h1> Checkout </h1>
+		
+		<div id="inputDiv">
+			<select>
+				<option> Select a product </option>
+				<option> Product </option>
+				<option> Doors </option>
+				<option> Windows </option>
+				<option> Buildings</option>
+				<option> Sculptures</option>
+				<option> WholeSale</option>
+			</select>
+			
+			<input id="checkBox" type="checkbox" /> This is a checkbox
+			<input type="radio" name="size" />Large
+			<input type="radio" name="size" />Small
+			
+			<input id="order"type="Button"  value=" Click to order "/>
+			
+			<input id="name1"type="Button"  value=" Click to enter name"/>
+			
+			<input id="changeAddress"type="Button"  value=" Enter"/>
+			<input id="add" type="text" placeholder="Address"/>
+			<p id= "address"> 22 Address Street, Kilkenny</p> 
+			
+		</div>
+		
+		
+		</div>
+		
+		<div id="specSixthDiv"> Outline tag</div><!--This is a div with an outline around it-->
+		
+		<div class="clear"> </div>
+		<!-- The following two divs will display the date and time on the webpage -->
+		
+		<div id="clock"> <iframe src="http://free.timeanddate.com/clock/i5fskb84/n4417/szw110/szh110/cf100/hnce1ead6" frameborder="0" width="110" height="110"></iframe> </div>
+
+		<div class="clear"> </div>
+
+		<div id="date"> <iframe src="http://free.timeanddate.com/clock/i5fskmvj/n4417/tt1/tw0/tm1" frameborder="0" width="89" height="18"></iframe> </div>
+ 
+		<div class="clear"> </div>
+ 
+		<div id="shape"></div>
+		
+		<div class="clear"> </div>
+		
+		<div id="goToTop"><a href="#firstDiv">Go to top</a></div>
+		
+		<script>
+			/////////////////////alert with line breaks///////////////////
+			document.getElementById("checkBox").onclick=function(){
+			
+			alert("Hello\nAre you sure you want to choose this option?");
+			
+			}
+			////////////////////////////// Confirm box//////////////////////
+			document.getElementById("order").onclick=function(){
+			
+			confirm("Are you sure you want to order");
+			
+			}
+			/////////////////////prompt box///////////////////////
+			document.getElementById("name1").onclick=function(){
+			
+			prompt("Please enter your name");
+			
+			}
+			/////////////////////Change HTML ///////////////////////
+			
+			document.getElementById("changeAddress").onclick=function(){
+			
+				document.getElementById("address").innerHTML = document.getElementById("add").value;
+			
+			}
+		
+		</script>
+
+ 
+ </div>
+</body>
+</html>
